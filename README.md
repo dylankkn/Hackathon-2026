@@ -1,3 +1,13 @@
+Equipe: 
+Miguel Rodrigues Araújo
+Dylan Kiyoshi Kaneko Nishina
+Matheus Primoselli
+Jorge Mendonça
+Gabriel Alfredo Mora Mardones
+
+
+
+
 Passo a passo pra fazer funcionar no vscode:
 1) Copiar o link
 
