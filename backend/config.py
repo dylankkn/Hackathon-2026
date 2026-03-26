@@ -8,7 +8,7 @@ API_KEY = os.environ.get("API_KEY")
 
 class Modelos(Enum):
     DeepSeek = "tngtech/deepseek-r1t2-chimera:free"
-    Nemotron_3_Super = "nvidia/nemotron-3-super-120b-a12b:free"
+    Nemotron_3_Super = "arcee-ai/trinity-large-preview:free"
     StepFun_35_FLASH = "stepfun/step-3.5-flash:free"
 
     @property

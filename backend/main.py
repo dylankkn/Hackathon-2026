@@ -5,7 +5,7 @@ from quiz_ia import iniciar_quiz
 
 
 # --- CONFIGURAÇÃO DA SERIAL ---
-porta_arduino = 'COM24' 
+porta_arduino = 'COM22' 
 baud_rate = 9600
 
 
@@ -17,8 +17,8 @@ try:
     while True:
         if arduino.in_waiting > 0:
             msg = arduino.readline().decode('utf-8', errors='ignore').strip()
-            if msg == "ACESSO_VERDE":
-                iniciar_quiz()
+            if msg == "LED VERDE ON - Quiz ativado":
+                iniciar_quiz(arduino)
 
 except serial.SerialException:
     print("❌ Erro: Porta COM ocupada! Verifique o Monitor Serial do Arduino.")
